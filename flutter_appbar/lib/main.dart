@@ -84,17 +84,6 @@ class _MyHomePageState extends State<MyHomePage> {
             }
           },)
         ],
-        bottom: TabBar(
-          controller: TabController(length: null, vsync: null),
-          isScrollable: true,
-          tabs: <Widget>[
-            createTab("全部", Icons.all_inclusive),
-            createTab("第一", Icons.looks_one),
-            createTab("第二", Icons.looks_two),
-            createTab("第三", Icons.looks_3),
-            createTab("第四", Icons.looks_4)
-          ]
-        ),
       ),
       body: Center(
 
